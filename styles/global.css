@@ -39,7 +39,8 @@
     --fs-2xl: 2.5rem;
 
     --py-base: 1rem;
-    --py-lg: 1.5rem --py-xl: 3rem;
+    --py-lg: 1.5rem;
+    --py-xl: 3rem;
 
     --px-lg: 1.5rem;
 }
@@ -82,6 +83,11 @@ h3 {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: inline-block;
 }
 
 a:hover {
